@@ -1,0 +1,25 @@
+{
+  "name": "pi-notebook-plugin",
+  "version": "0.1.0",
+  "description": "Pi extension: notebook tools for reading and editing .ipynb files with compact cell views",
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/test/*.test.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "typebox": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^1.1.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
