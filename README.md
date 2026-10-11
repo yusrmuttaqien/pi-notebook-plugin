@@ -23,7 +23,7 @@ Offloads JSON structure to the tool so the model sees a clean, minimal represent
 ## Install
 
 ```bash
-pi install npm:pi-notebook-plugin
+pi install git:github.com/yusrmuttaqien/pi-notebook-plugin
 ```
 
 ## Development
